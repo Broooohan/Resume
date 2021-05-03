@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #343c57;
+  }
+  .my-name {
+    text-align: center;
+    padding: 10px;
+  }
+  hr {
+    background-color: white;
+    height: 3px;
+    width: 8vw;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .right {
+    background-color: rgb(250, 236, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .about {
+    padding: 10px;
+    margin: 15px;
+  }
+  .contact {
+    font-size: 1.5vw;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-break: break-all;
+    width: 100%;
+  }
+  .skills {
+    font-size: 1.5vw;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-break: break-all;
+    width: 100%;
+  }
+  .education {
+    font-size: 1.5vw;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-break: break-all;
+    width: 100%;
+  }
+  .projects {
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-break: break-all;
+    width: 100%;
+  }
+  .interests {
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    word-break: break-all;
+  }
+  button {
+      margin: 2px;
+    width: 100%;
+  }
+  span {
+    color: tomato;
+  }
+  @media screen and (max-width: 1137px) {
+    section {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact {
+      align-items: center;
+      width: 100%;
+      font-size: medium;
+    }
+    .skills {
+      font-size: large;
+      align-items: center;
+    }
+    .interests {
+      align-items: center;
+    }
+    button{
+        width: 50%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+      button{
+          width: 75%;
+      }
+  }
+  @media screen and (max-width: 400px) {
+      button{
+          width: 85%;
+      }
+  }
